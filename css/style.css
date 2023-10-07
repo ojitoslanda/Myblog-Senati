@@ -1,0 +1,97 @@
+/* afecta a toda la pagina */
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background: #ffffff;
+    font-family: calibri;
+    /*footer afecta*/
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    background: #01a9db;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 0px 30px #A4A4A4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+/* 
+<div id="encabezado"> 
+#encabezado
+*/
+#encabezado{
+width: 80%;
+height: 30px;
+margin: auto;
+border: 0px solid #800
+}
+
+/* <div class="logo"> */
+.logo{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    float:left;
+    color:#fff;
+    margin-top: 55px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+/* <div id="menu"> */
+#menu{
+    width: 50%;
+    height: 30px;
+    float: right;
+    border: 0px solid red;
+    margin-top: 57px;
+}
+/* 
+<div id="menu">
+<ul>
+    <li></li>
+</ul> 
+*/
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu ul li .enlace{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size:20px;
+}
+
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu{
+    background-color: #585858;
+    color:#fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+/* ====== FOOTER  ====== */
+footer{
+    background-color: #333;
+    padding: 20px 0px;
+}
+/* <div class="footer-contenedor"> */
+.footer-contenedor{
+    color:#fff;
+    text-align: center;
+}
